@@ -132,6 +132,7 @@ Após a criação:
      - Nome da implantação : Deixe o padrão
      - Inferência de coleta de dados : Desativado
      - Modelo de pacote : Desativado
+![Captura de tela 2025-03-01 021758](https://github.com/user-attachments/assets/70ba43d5-fa7e-472d-82eb-b9f0d2206695)
 
 4. Após a implantação (média de ** 5 a 10 minutos**), acessei a aba **"Testar"** do ponto de extremidade.
 5. Testei com o JSON abaixo:
