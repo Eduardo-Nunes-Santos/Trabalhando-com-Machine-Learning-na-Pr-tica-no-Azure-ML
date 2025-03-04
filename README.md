@@ -1,8 +1,8 @@
-# Trabalhando com Machine Learning na Prática no Azure ML
+# Trabalhando com Machine Learning na Prática no Azure ML 🌐
 
-Desafio da DIO  **Trabalhando com Machine Learning na Prática no Azure ML**.
+🎯Desafio da DIO  **Trabalhando com Machine Learning na Prática no Azure ML**.🌐
 
-## Links importantes
+## Links importantes 🧑‍💻
 
 - [Explore Azure AI Services](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/02-content-safety.html)
 - [Explore Automated Machine Learning in Azure Machine Learning](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/01-machine-learning.html)
@@ -57,11 +57,11 @@ Após a criação:
 
 
 ### **Configuração do Trabalho**
-1. Preenchi os campos:
-   - **Nome do trabalho**.
-   - **Novo nome do experimento**.
-   - **Descrição**.
-2. Cliquei em **Avançar**.
+1. Preenchi as seguintes informações:
+- Nome do trabalho
+- Nome do experimento
+- Descrição
+2. Após preencher os campos, avancei para a próxima etapa clicando em Avançar.
 
 ### **Selecionando os dados**
 1. Escolhi o tipo de tarefa como **Regressão**.
