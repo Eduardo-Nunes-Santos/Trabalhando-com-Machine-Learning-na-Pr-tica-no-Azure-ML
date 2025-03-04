@@ -2,7 +2,7 @@
 
 🎯Desafio da DIO  **Trabalhando com Machine Learning na Prática no Azure ML**.🌐
 
-## Links importantes 🧑‍💻
+📌## Links importantes 🧑‍💻
 
 - [Explore Azure AI Services](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/02-content-safety.html)
 - [Explore Automated Machine Learning in Azure Machine Learning](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/01-machine-learning.html)
