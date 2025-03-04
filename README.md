@@ -19,7 +19,8 @@ Primeiro, criei um recurso de **Machine Learning**. Para isso:
 2. Pesquisei por **Azure Machine Learning** no marketplace.
 3. Após identificar o recurso, cliquei em **Criar**.
 
-![Criação do Recurso](./imgs/img1.gif)
+![Captura de tela 2025-03-01 005019](https://github.com/user-attachments/assets/46a6349b-1270-40cf-b1dd-a27338155845)
+
 
 ---
 
@@ -33,16 +34,18 @@ Primeiro, criei um recurso de **Machine Learning**. Para isso:
 3. Cliquei em **Consultar + Criar**.
 4. Após a validação, cliquei em **Criar**.
 
-![Configuração do Recurso](./imgs/img2.png)
+![Captura de tela 2025-03-01 005309](https://github.com/user-attachments/assets/7fcc1a01-ec42-45a6-9453-b10afb2676ee)
+
+
 
 Após a criação:
 - Cliquei em **"Ir para o recurso"** para acessar a página correspondente.
 
-![Ir para o recurso](./imgs/img3.png)
+![Captura de tela 2025-03-01 013812](https://github.com/user-attachments/assets/0ab38152-0da5-4993-8b62-36a45f63ea9a)
 
 - Nessa página, utilizei o botão **"Iniciar o estúdio"**, que me redirecionou para a página do estúdio do **Azure Machine Learning**.
+![Captura de tela 2025-03-01 013812](https://github.com/user-attachments/assets/b4329ba8-4918-4dbe-9201-fbdbcd69be5a)
 
-![Iniciar o estúdio](./imgs/img4.png)
 
 ---
 
@@ -50,8 +53,8 @@ Após a criação:
 
 1. No **Estúdio do Azure ML**, acessei **ML automatizado**.
 2. Cliquei em **"Novo trabalho de ML automatizado"**.
+![Captura de tela 2025-03-01 014134](https://github.com/user-attachments/assets/409042da-78c9-45d8-9cd0-221f972a499a)
 
-![Novo trabalho de ML](./imgs/img5.gif)
 
 ### **Configuração do Trabalho**
 1. Preenchi os campos:
@@ -72,19 +75,17 @@ Após a criação:
    - [https://aka.ms/bike-rentals](https://aka.ms/bike-rentals).
 6. Ajustei as configurações do conjunto de dados, verifiquei os tipos de dados e finalizei.
 
-![Selecionar dados](./imgs/img6.gif)
+![Captura de tela 2025-03-01 014905](https://github.com/user-attachments/assets/db708dee-fda0-4806-9b41-a884c97fb912)
 
 ### **Configurações da Tarefa**
 1. Escolhi o conjunto de dados importado.
 2. Defini a **coluna de destino** como **rentals**.
 3. Em **Limite**, preenchi os valores adequados e ativei **Habilitar encerramento antecipado**.
 
-![Configurações](./imgs/img7.png)
 
 4. Em **Validar e testar**, selecionei **Divisão de validação de treinamento**.
 5. No passo **Computação**, mantive os valores padrão.
 
-![Computação](./imgs/img8.png)
 
 6. Finalizei clicando em **"Enviar trabalho de treinamento"**.
 
@@ -93,11 +94,10 @@ Após a criação:
 2. Cliquei em **"Modelo de registro"**.
 3. Preenchi o nome e a versão do modelo e cliquei em **Criar**.
 
-![Registro do Modelo](./imgs/img12.gif)
 
 - O modelo agora está acessível na aba **"Modelos"**.
+![Captura de tela 2025-03-01 022922](https://github.com/user-attachments/assets/f94dd880-735b-4665-9ad8-8712f83589cb)
 
-![Modelos](./imgs/img9.png)
 
 ---
 
@@ -108,7 +108,7 @@ Após a criação:
    - Também é possível acessar via **"Tarefas (Jobs)"** no menu lateral.
 2. Na página da tarefa, acessei a aba **Métricas**.
 
-![Métricas do Modelo](./imgs/img10.gif)
+![Captura de tela 2025-03-01 023226](https://github.com/user-attachments/assets/4b1d2ed6-5768-4841-9497-826ab1ad3eac)
 
 ---
 
@@ -122,10 +122,18 @@ Após a criação:
    - Marquei o modelo e deixei os valores padrão, exceto:
      - **Contagem de instâncias**: **1**.
    - Cliquei em **Implantar**.
+  
+     ## Configurações para implantar
 
-![Criando o Ponto de Extremidade](./imgs/img13.gif)
+     - Máquina virtual : Standard_DS3_v2
+     - Contagem de instâncias : 3
+     - Ponto final : Novo
+     - Nome do ponto de extremidade : deixe o padrão ou certifique-se de que seja globalmente exclusivo
+     - Nome da implantação : Deixe o padrão
+     - Inferência de coleta de dados : Desativado
+     - Modelo de pacote : Desativado
 
-4. Após a implantação (média de **9 a 10 minutos**), acessei a aba **"Testar"** do ponto de extremidade.
+4. Após a implantação (média de ** 5 a 10 minutos**), acessei a aba **"Testar"** do ponto de extremidade.
 5. Testei com o JSON abaixo:
 
 ```json
